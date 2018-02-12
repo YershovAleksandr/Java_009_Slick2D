@@ -199,21 +199,21 @@
 	<SubTexture name="playerLife3_green.png" x="778" y="469" width="32" height="26"/>
 	<SubTexture name="playerLife3_orange.png" x="777" y="712" width="32" height="26"/>
 	<SubTexture name="playerLife3_red.png" x="777" y="443" width="32" height="26"/>
-	<SubTexture name="playerShip1_blue.png" x="211" y="941" width="99" height="75"/>
+	<sprite name="playerShip1_blue.png" x="211" y="941" width="99" height="75"/>
 	<SubTexture name="playerShip1_damage1.png" x="112" y="941" width="99" height="75"/>
 	<SubTexture name="playerShip1_damage2.png" x="247" y="234" width="99" height="75"/>
 	<SubTexture name="playerShip1_damage3.png" x="247" y="159" width="99" height="75"/>
 	<SubTexture name="playerShip1_green.png" x="237" y="377" width="99" height="75"/>
 	<SubTexture name="playerShip1_orange.png" x="247" y="84" width="99" height="75"/>
 	<SubTexture name="playerShip1_red.png" x="224" y="832" width="99" height="75"/>
-	<SubTexture name="playerShip2_blue.png" x="112" y="791" width="112" height="75"/>
+	<sprite name="playerShip2_blue.png" x="112" y="791" width="112" height="75"/>
 	<SubTexture name="playerShip2_damage1.png" x="0" y="866" width="112" height="75"/>
 	<SubTexture name="playerShip2_damage2.png" x="0" y="791" width="112" height="75"/>
 	<SubTexture name="playerShip2_damage3.png" x="0" y="716" width="112" height="75"/>
 	<SubTexture name="playerShip2_green.png" x="112" y="866" width="112" height="75"/>
 	<SubTexture name="playerShip2_orange.png" x="112" y="716" width="112" height="75"/>
 	<SubTexture name="playerShip2_red.png" x="0" y="941" width="112" height="75"/>
-	<SubTexture name="playerShip3_blue.png" x="325" y="739" width="98" height="75"/>
+	<sprite name="playerShip3_blue.png" x="325" y="739" width="98" height="75"/>
 	<SubTexture name="playerShip3_damage1.png" x="323" y="832" width="98" height="75"/>
 	<SubTexture name="playerShip3_damage2.png" x="310" y="907" width="98" height="75"/>
 	<SubTexture name="playerShip3_damage3.png" x="325" y="664" width="98" height="75"/>

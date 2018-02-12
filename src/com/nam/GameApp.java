@@ -8,7 +8,9 @@ public class GameApp extends BasicGame{
 
     private Logger log = LoggerFactory.getLogger(GameApp.class);
 
-    private Image img;
+    private Image img1;
+    private Image img2;
+    private Image img3;
 
     GameApp(String gamename){
         super(gamename);
@@ -19,7 +21,9 @@ public class GameApp extends BasicGame{
 
         XMLPackedSheet sheet = new XMLPackedSheet("res/art/sheet.png", "res/art/sheet.xml");
 
-        img = sheet.getSprite("buttonRed");
+        img1 = sheet.getSprite("playerShip1_blue.png");
+        img2 = sheet.getSprite("playerShip2_blue.png");
+        img3 = sheet.getSprite("playerShip3_blue.png");
 
     }
 
@@ -31,7 +35,9 @@ public class GameApp extends BasicGame{
         g.setColor(Color.red);
         g.drawRect(100, 100, 300, 300);
 
-        img.draw(100, 100);
+        img1.draw(100, 100);
+        img2.draw(100, 200);
+        img3.draw(100, 300);
 
         //g.drawImage(img, 100, 100);
     }

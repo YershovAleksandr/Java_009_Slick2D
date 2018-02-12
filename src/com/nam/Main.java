@@ -15,9 +15,7 @@ public class Main {
         log.info("Info");
 
         try{
-            AppGameContainer app;
-
-            app = new AppGameContainer(new GameApp("Fuck Fucker Motherfucka"));
+            AppGameContainer app = new AppGameContainer(new GameApp("Fuck Fucker Motherfucka"));
             app.setDisplayMode(1024,768, false);
             app.start();
         }
