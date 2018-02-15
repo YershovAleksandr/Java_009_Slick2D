@@ -7,6 +7,8 @@ import org.newdawn.slick.state.StateBasedGame;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 
+import java.io.File;
+
 public class Main extends StateBasedGame{
 
     public static final int SPLASHSCREEN    = 0;
@@ -36,6 +38,11 @@ public class Main extends StateBasedGame{
 	// write your code here
 
         log.info("Info");
+
+        //System.setProperty("java.library.path", "libs");
+        //System.setProperty("org.lwjgl.librarypath", new File("libs/linux").getAbsolutePath());
+
+
 
         try{
             //AppGameContainer app = new AppGameContainer(new GameApp("Fuck Fucker Motherfucka"));
