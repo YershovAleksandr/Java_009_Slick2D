@@ -7,6 +7,8 @@ import org.newdawn.slick.state.StateBasedGame;
 
 import org.newdawn.slick.state.transition.FadeInTransition;
 import org.newdawn.slick.state.transition.FadeOutTransition;
+import org.newdawn.slick.svg.InkscapeLoader;
+import org.newdawn.slick.svg.SimpleDiagramRenderer;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 
@@ -21,6 +23,8 @@ public class Game extends BasicGameState {
 
     private int MaxPixels = 100;
 
+    private SimpleDiagramRenderer svg;
+
     @Override
     public void init(GameContainer gc, StateBasedGame sbg) throws SlickException {
         //
@@ -28,13 +32,19 @@ public class Game extends BasicGameState {
 
 
         game = sbg;
+
+        //svg = new SimpleDiagramRenderer(InkscapeLoader.load("res/art/projectile1.svg"));
     }
 
     @Override
     public void render(GameContainer gc, StateBasedGame sbg, Graphics g) throws SlickException {
         //
         int min = 200;
-        int max = 300;
+        int max = 600;
+
+        int xx = 300;
+        int yy = 400;
+
 
         g.setColor(Color.red);
 
@@ -50,6 +60,15 @@ public class Game extends BasicGameState {
 
         g.setColor(Color.white);
         g.drawString("Game #" + MaxPixels, 100, 100);
+
+        g.setColor(Color.green);
+        g.drawRect(min, min, max - min, max - min);
+
+        //g.setWorldClip(xx, xx, yy - xx, yy - xx);
+        //g.setClip(xx, xx, yy - xx, yy - xx);
+
+        //svg.render(g);
+
 
     }
 
